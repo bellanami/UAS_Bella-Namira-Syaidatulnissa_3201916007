@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Bella</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="row justify-content-center">
+            <div class="col-3 pt-3">
+                <center>
+                    <div class="gambar">
+                        <img src="assets/img/bella.png"
+                            width="30%">
+                    </div>
+                </center>
+                
+            </div>
+            <div class="col-3 pt-4 px-3">
+                <center><div class="timer-utama">00 : 00 : 00</div></center>
+            </div>
+            <div class="col-3 pt-4">
+                <center><div id="jam"></div></center>
+            </div>
+        </div>
+        <div class="container-tombol mt-5">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-3 pl-5">
+                    <button id="start" class="ml-5">Mulai</button>
+                </div>
+                <div class="col-3 pl-5">
+                    <button id="reset">Mulai Ulang</button>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="container-peserta">
+        <div class="peserta">
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <img class="profile" src="assets/img/profile8.png" alt="" width="30%">
+                </div>
+                <div class="col-3">
+                    <h5>Zackary Walmsley</h5>
+                </div>
+                <div class="col-3">
+                    <div class="timer timer-peserta" id="timer1">00:00:00</div>
+                </div>
+                <div class="col-1">
+                    <button class="selesai" id="selesai1">Selesai</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="peserta">
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <img class="profile" src="assets/img/profile1.jpg" alt="" width="30%">
+                </div>
+                <div class="col-3">
+                    <h5>Habib Clay</h5>
+                </div>
+                <div class="col-3">
+                    <div class="timer timer-peserta" id="timer2">00:00:00</div>
+                </div>
+                <div class="col-1">
+                    <button class="selesai" id="selesai2">Selesai</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="peserta">
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <img class="profile" src="assets/img/profile2.png" alt="" width="30%">
+                </div>
+                <div class="col-3">
+                    <h5>Aarron Walter</h5>
+                </div>
+                <div class="col-3">
+                    <div class="timer timer-peserta" id="timer3">00:00:00</div>
+                </div>
+                <div class="col-1">
+                    <button class="selesai" id="selesai3">Selesai</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="peserta">
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <img class="profile" src="assets/img/profile3.png" alt="" width="30%">
+                </div>
+                <div class="col-3">
+                    <h5>Jacob Ingram</h5>
+                </div>
+                <div class="col-3">
+                    <div class="timer timer-peserta" id="timer4">00:00:00</div>
+                </div>
+                <div class="col-1">
+                    <button class="selesai" id="selesai4">Selesai</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="peserta">
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <img class="profile" src="assets/img/profile4.png" alt="" width="30%">
+                </div>
+                <div class="col-3">
+                    <h5>Brandon Neal</h5>
+                </div>
+                <div class="col-3">
+                    <div class="timer timer-peserta" id="timer5">00:00:00</div>
+                </div>
+                <div class="col-1">
+                    <button class="selesai" id="selesai5">Selesai</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="peserta">
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <img class="profile" src="assets/img/profile5.png" alt="" width="30%">
+                </div>
+                <div class="col-3">
+                    <h5>Haaris Neville</h5>
+                </div>
+                <div class="col-3">
+                    <div class="timer timer-peserta" id="timer6">00:00:00</div>
+                </div>
+                <div class="col-1">
+                    <button class="selesai" id="selesai6">Selesai</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="peserta">
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <img class="profile" src="assets/img/profile6.png" alt="" width="30%">
+                </div>
+                <div class="col-3">
+                    <h5>Macy Cartwright</h5>
+                </div>
+                <div class="col-3">
+                    <div class="timer timer-peserta" id="timer7">00:00:00</div>
+                </div>
+                <div class="col-1">
+                    <button class="selesai" id="selesai7">Selesai</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="peserta">
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <img class="profile" src="assets/img/profile7.png" alt="" width="30%">
+                </div>
+                <div class="col-3">
+                    <h5>Aryan Dyer</h5>
+                </div>
+                <div class="col-3">
+                    <div class="timer timer-peserta" id="timer8">00:00:00</div>
+                </div>
+                <div class="col-1">
+                    <button class="selesai" id="selesai8">Selesai</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h5>Bella Namira Syaidatulnissa <br>
+    4D TIF <br>
+    3201916007</h5>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
